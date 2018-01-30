@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_alignParentBottom="false"
+    android:layout_margin="10dp"
+    android:background="#171a41"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="5dp"
+    tools:context="com.example.ejercicio3001coche.MainActivity"><![CDATA[
+
+    />
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/ivimagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="20dp">
+
+        <TextView
+            android:id="@+id/tvmarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="starter"
+            android:textColor="#FFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvmodelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="start"
+            android:textColor="#FFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+</LinearLayout>
